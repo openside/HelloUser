@@ -12,6 +12,8 @@ public class Main {
 		System.out.println("What is your last name?");
 		String lastName = scanner.nextLine();
 		
-		System.out.println("Hello " + firstName + " " + lastName + "!");
+		System.out.println(
+				"Hello " + firstName + " " + lastName + "!" +
+						"\nHow are you?");
 	}
 }
